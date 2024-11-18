@@ -114,11 +114,8 @@
 
 <script>
     function checkAnswers() {
-        // Respostas corretas
         const correctAnswers = ['b', 'c', 'b', 'a', 'a', 'a', 'c', 'a', 'a', 'd'];
         let score = 0;
-
-        // Verifica cada pergunta e compara com a resposta correta
         correctAnswers.forEach((answer, index) => {
             const question = document.querySelector(`input[name="q${index + 1}"]:checked`);
             if (question && question.value === answer) {
@@ -126,7 +123,6 @@
             }
         });
 
-        // Exibe o resultado
         const resultText = `Você acertou ${score} de ${correctAnswers.length} questões!`;
         document.getElementById("result").innerText = resultText;
     }
