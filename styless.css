@@ -1,7 +1,7 @@
 body {
-    font-family: Arial, sans-serif; /* Define a fonte principal como Arial */
-    color: #ffffff; /* Define a cor do texto como um cinza escuro */
-    background-color: #ffffff; /* Define uma cor de fundo clara para a página */
+    font-family: Arial, sans-serif; 
+    color: #ffffff; 
+    background-color: #ffffff; 
     
 }
 body {
@@ -11,7 +11,7 @@ body {
   }
   
   .conteudo {
-    background-color: #000000e0; /* Cor branca */
+    background-color: #000000e0; 
     padding: 20px;
     margin: 40px auto;
     width: 80%;
@@ -21,24 +21,23 @@ body {
   }
   
 
-/* Container principal do formulário de contato */
 .contact-container {
     max-width: 500px;
     width: 100%;
     padding: 50px;
     border-radius: 10px;
-    color: #ffffff; /* Cor do texto */
+    color: #ffffff; 
 }
 
-/* Estilo do título do formulário */
+
 .contact-container h2 {
     text-align: center;
-    color: #ffffff; /* Azul para o título */
+    color: #ffffff;
     font-size:50px;
     margin-bottom: 20px;
 }
 
-/* Estilo dos campos do formulário */
+
 .form-group {
     margin-bottom: 50px;
 }
@@ -58,19 +57,17 @@ label {
     transition: border-color 0.3s ease;
 }
 
-/* Muda a borda do campo ao focar */
+
 .form-control:focus {
     border-color: #3600007e;
     outline: none;
 }
 
-/* Estilo da caixa de sugestão */
-textarea.form-control {
-    resize: vertical; /* Permite redimensionar a caixa de sugestão verticalmente */
+    resize: vertical; 
     min-height: 100px;
 }
 
-/* Estilo do botão de envio */
+
 .btn-primary {
     width: 100%;
     padding: 12px;
@@ -85,5 +82,5 @@ textarea.form-control {
 }
 
 .btn-primary:hover {
-    background-color: #1300007e; /* Azul mais escuro ao passar o mouse */
+    background-color: #1300007e;
 }
