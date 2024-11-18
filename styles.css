@@ -1,10 +1,8 @@
-/* styles.css */
 
-/* Define a fonte e a cor do texto para todo o site */
 body {
-    font-family: Arial, sans-serif; /* Define a fonte principal como Arial */
-    color: #ffffff; /* Define a cor do texto como um cinza escuro */
-    background-color: #380000c4; /* Define uma cor de fundo clara para a página */
+    font-family: Arial, sans-serif; 
+    color: #ffffff;
+    background-color: #380000c4; 
 }
 body {
     background-image: url('floriografia2.jfif');
@@ -13,7 +11,7 @@ body {
   }
   
   .conteudo {
-    background-color: #000000d7; /* Cor branca */
+    background-color: #000000d7;
     padding: 20px;
     margin: 40px auto;
     width: 80%;
@@ -22,9 +20,8 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-/* Estilo do cabeçalho */
 header h1 {
-    color: #6c757d; /* Define a cor do título do cabeçalho como um cinza claro */
+    color: #6c757d; 
     font-family: "Vidaloka", serif;
  
   
@@ -38,51 +35,51 @@ header h1 {
   
 
 header h4 {
-    color: #6c757d; /* Define a cor do título do cabeçalho como um cinza claro */
+    color: #6c757d;
     font-family: 'Playfair Display', serif
  
 }
 
 header h2 {
-    color: #6c757d; /* Define a cor do título do cabeçalho como um cinza claro */
+    color: #6c757d; 
     font-family: 'Playfair Display', serif
    
 }
 
 header h3 {
-    color: #6c757d; /* Define a cor do título do cabeçalho como um cinza claro */
+    color: #6c757d; 
     font-family: 'Playfair Display', serif
       
 }
 
 header nav a {
-    color: #520000; /* Define a cor dos links de navegação como azul */
-    text-decoration: none; /* Remove o sublinhado dos links */
-    margin: 0 10px; /* Adiciona espaçamento horizontal entre os links */
+    color: #520000; 
+    text-decoration: none; 
+    margin: 0 10px; 
 }
 
 header nav a:hover {
-    text-decoration: underline; /* Adiciona sublinhado quando o link é passado com o mouse */
+    text-decoration: underline; 
 }
 
-/* Define o estilo do conteúdo principal */
+
 main {
-    max-width: 800px; /* Limita a largura máxima do conteúdo principal a 800px */
-    margin: 0 auto; /* Centraliza o conteúdo principal na página */
+    max-width: 800px; 
+    margin: 0 auto;
 }
 
-/* Estilo da legenda do carrossel */
+
      .carousel-caption {
-    position: static; /* Coloca a legenda abaixo da imagem */
-    text-align: center; /* Centraliza o texto */
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para a legenda */
+    position: static; 
+    text-align: center; 
+    background-color: rgba(0, 0, 0, 0.5); 
     color: white;
-    padding: 15px; /* Espaçamento interno */
+    padding: 15px; 
 }
 
 
-/* Centraliza o carrossel */
+
 #flowerCarousel {
     margin: 10% auto;
-    max-width: 28%; /* Ajuste conforme necessário */
+    max-width: 28%;
 }
